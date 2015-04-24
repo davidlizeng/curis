@@ -1,0 +1,23 @@
+papers.csv:
+1) paper_id (int)
+2) author_id (int)
+3) dblp_key (varchar)
+4) paper_type (varchar)
+- either conf or journal
+5) title (varchar)
+6) pages (varchar)
+7) year (int)
+8) volume (int)
+9) publication_title (varchar)
+10) ee_url (varchar)
+11) crossref (varchar)
+
+paper_authors.csv:
+1) paper_author_id (int)
+2) paper_id (int)
+3) author name (varchar)
+
+keywords.csv:
+1) keyword_id (int)
+2) paper_id (int)
+3) keyword (varchar)
